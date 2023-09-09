@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arunagiri's Kitchen</title>
+    <link rel="icon" href="Arunagiri's.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <!-- <h3>Arunagiri's Kitchen</h3> -->
+            <div class="logo"> <a href="#"><img src="Arunagiri's.png" alt=""></a></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#menu">Menu Card</a></li>
+                    <li><a href="#combo">Vegetarian Food</a></li>
+                    <li><a href="#fj">Fresh Juice</a></li>
+                    <li><a href="#ic">Ice Cream</a></li>
+                    <li><a href="#cu">Contact Us</a></li>
+                </ul>
+
+
+                <div class="cart">
+                    <div class="cart-title">Cart Items</div>
+                    <div class="cart-content"></div>
+                  <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                  </div>
+                  <button class="btn-buy">Place Order</button>
+                  <ion-icon name="close" id="cart-close"></ion-icon>
+                </div> 
+            </nav>
+
+
+            <div class="addcart">
+                <i id="cart-icon" class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <div class="zero">3</div>
+            </div>
+            <div class="btn">
+                <button>Log In</button>
+            </div>
+            </div>
+            <div class="handbur">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="banlogo">
+            <img src="food banner3.jpg" alt="banner">
+        </div>
+        <div class="content">
+            <h1>Welcome</h1>
+           <h2>To</h2>
+           <h3>Arunagiri's Kitchen</h3>
+        </div>
+    </div>
+    <div class="ribbon" id="menu">
+        <p class="ribpara"><h1>Special Menu</h1></p>
+    </div>
+    <main >
+        <div class="boxes">
+            <div class="box box1">
+                <div class="pic">
+                    <img src="pic1.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">IDLY</p>
+                        <p class="rate">Rs.40</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" id="cart-add" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="pic">
+                    <img src="pic2.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">DOSA</p>
+                        <p class="rate">Rs.50</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" id="cart-add" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="pic">
+                    <img src="pic3.jfif" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">VEG BURGER</p>
+                        <p class="rate">Rs.80</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" id="cart-add" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="pic">
+                    <img src="pic5.webp" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">FRENCH FRIES</p>
+                        <p class="rate">Rs.50</p>
+                    </div>
+                    <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="pic">
+                    <img src="pic6.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">CHICKEN GRAVY</p>
+                        <p class="rate">Rs.150</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box6">
+                <div class="pic">
+                    <img src="pic7.png" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">KADAI CHICKEN</p>
+                        <p class="rate">Rs.200</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box7">
+                <div class="pic">
+                    <img src="pic8.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">GRILL CHICKEN</p>
+                        <p class="rate">Rs.500</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box8">
+                <div class="pic">
+                    <img src="pic99.jpeg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">MUTTON BIRIYANI</p>
+                        <p class="rate">Rs.250</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box9">
+                <div class="pic">
+                    <img src="pic10.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">CHICKEN 65</p>
+                        <p class="rate">Rs.60</p>
+                    </div>
+                     <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+            </div>
+            <div class="box box10">
+                <div class="pic">
+                    <img src="pic111.jpeg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">FRIED CHICKEN</p>
+                        <p class="rate">Rs.120</p>
+                    </div>  
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box11">
+                <div class="pic">
+                    <img src="pic12.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">FISH FRY</p>
+                        <p class="rate">Rs.100</p>
+                    </div>     
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box12">
+                <div class="pic">
+                    <img src="pic13.webp" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">FISH GRAVY</p>
+                        <p class="rate">Rs.220</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+    <section>
+        <div class="ribbon3" id="combo">
+            <p><h1>Vegetarian Food</h1></p>
+        </div>
+        <div class="boxes">
+            <div class="box box1">
+                <div class="pic">
+                    <img src="tt1.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">CHAPTHI</p>
+                        <p class="rate">Rs.40</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" id="cart-add" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="pic">
+                    <img src="tt2.jpeg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">NAAN</p>
+                        <p class="rate">Rs.50</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" id="cart-add" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="pic">
+                    <img src="tt3.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">PARATHA</p>
+                        <p class="rate">Rs.30</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" id="cart-add" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="pic">
+                    <img src="panner.webp" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">PANNER BUTTER MASALA</p>
+                        <p class="rate">Rs.150</p>
+                    </div>
+                    <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="pic">
+                    <img src="veg keema.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">VEG KEEMA</p>
+                        <p class="rate">Rs.100</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box6">
+                <div class="pic">
+                    <img src="Gobhi.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">GOBHI MANCHURIAN</p>
+                        <p class="rate">Rs.120</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box7">
+                <div class="pic">
+                    <img src="Veg Biryani.webp" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">VEG BIRIYANI</p>
+                        <p class="rate">Rs.180</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box8">
+                <div class="pic">
+                    <img src="vegfried.webp" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">VEG FRIED RICE</p>
+                        <p class="rate">Rs.130</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box9">
+                <div class="pic">
+                    <img src="bisi-bele-bath.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">BISIBELEBATH</p>
+                        <p class="rate">Rs.90</p>
+                    </div>
+                     <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+            </div>
+            </div>
+    </section>
+    <section>
+        <div class="ribbon3" id="fj">
+            <p><h1>Fresh Juice</h1></p>
+        </div>
+        <div class="boxes">
+            <div class="box box1">
+                <div class="pic">
+                    <img src="ju1.jfif" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">WATERMELON JUICE</p>
+                        <p class="rate">Rs.70</p>
+                    </div>
+                    
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+            </div>
+            <div class="box box2">
+                <div class="pic">
+                    <img src="ju2.jpeg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">CARROT JUICE</p>
+                        <p class="rate">Rs.50</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="pic">
+                    <img src="ju3.webp" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">STRABERRY JUICE</p>
+                        <p class="rate">Rs.80</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="pic">
+                    <img src="ju4.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">ORANGE JUICE</p>
+                        <p class="rate">Rs.50</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="pic">
+                    <img src="ju5.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">DRAGAN FRUIT JUICE</p>
+                        <p class="rate">Rs.150</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box6">
+                <div class="pic">
+                    <img src="ju6.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">KIVI JUICE</p>
+                        <p class="rate">Rs.100</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box7">
+                <div class="pic">
+                    <img src="ju7.webp" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">MIXED JUICE</p>
+                        <p class="rate">Rs.90</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box8">
+                <div class="pic">
+                    <img src="ju8.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">MANGO JUICE</p>
+                        <p class="rate">Rs.80</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>  
+            <div class="box box1">
+                <div class="pic">
+                    <img src="ju1.jfif" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">WATERMELON JUICE</p>
+                        <p class="rate">Rs.70</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="ribbon3" id="fj">
+            <p><h1>Milk Shanke's</h1></p>
+        </div>
+        <div class="boxes">
+            <div class="box box1">
+                <div class="pic">
+                    <img src="ms1.jfif" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">STRABERRY MILKSHAKE</p>
+                        <p class="rate">Rs.100</p>
+                    </div>
+            
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="pic">
+                    <img src="mk2.webp" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">CHOCOLATE MILKSHAKE</p>
+                        <p class="rate">Rs.120</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="pic">
+                    <img src="mk3.jfif" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">HARD ROCK MILKSHAKE</p>
+                        <p class="rate">Rs.150</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="pic">
+                    <img src="mk4.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">KITKAT MILKSHAKE</p>
+                        <p class="rate">Rs.130</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box1">
+                <div class="pic">
+                    <img src="coffee-milkshake.jpg" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">COFFEE MILKSHAKE</p>
+                        <p class="rate">Rs.110</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="pic">
+                    <img src="vanilla-milkshake.png" alt="picture" class="imgg">
+                    <div class="cont">
+                        <p class="item">VANILLA MILKSHAKE</p>
+                        <p class="rate">Rs.130</p>
+                    </div>
+                        <div class="cartt">
+                            <p>Add to cart</p>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                    </div>
+            </div>
+    </section>
+    <section>
+        <div class="ribbon" id="ic">
+            <p class="ribpara"><h1>Ice Cream's</h1></p>
+        </div>
+        <main >
+            <div class="boxes"  >
+                <div class="box box1">
+                    <div class="pic">
+                        <img src="ic1.jpg" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">CHOCOLATE ICECREAM</p>
+                            <p class="rate">Rs.60</p>
+                        </div>
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="pic">
+                        <img src="ic2.jpg" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">BERRY ICECREAM</p>
+                            <p class="rate">Rs.100</p>
+                        </div>
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                </div>
+                <div class="box box3">
+                    <div class="pic">
+                        <img src="ic3.webp" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">MIXIDE ICECREAM</p>
+                            <p class="rate">Rs.80</p>
+                        </div>
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="box box4">
+                    <div class="pic">
+                        <img src="ic4.webp" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">VANNILA ICECREAM</p>
+                            <p class="rate">Rs.50</p>
+                        </div>
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="box box5">
+                    <div class="pic">
+                        <img src="ic5.webp" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">CHOCOLATE CONE</p>
+                            <p class="rate">Rs.70</p>
+                        </div>
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="box box6">
+                    <div class="pic">
+                        <img src="ic6.webp" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">STRABERRY CONE</p>
+                            <p class="rate">Rs.100</p>
+                        </div>
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="box box7">
+                    <div class="pic">
+                        <img src="ic7.jpg" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">MIXED CONE</p>
+                            <p class="rate">Rs.120</p>
+                        </div>
+                                        
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="box box8">
+                    <div class="pic">
+                        <img src="ic8.jpg" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">NUTS CONE</p>
+                            <p class="rate">Rs.150</p>
+                        </div>          
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="box box1">
+                    <div class="pic">
+                        <img src="pistha.jpg" alt="picture" class="imgg">
+                        <div class="cont">
+                            <p class="item">PISTHA ICECREAM</p>
+                            <p class="rate">Rs.80</p>
+                        </div>
+                            <div class="cartt">
+                                <p>Add to cart</p>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+    </section><hr>
+    <div class="ribbon7" id="cu">
+        <p class="ribpara"><h1>contract Us</h1></p>
+    </div>
+    <div class="adders">
+        <div class="image">
+            <a href="#"><img src="Arunagiri's.png" alt=""></a> 
+        </div>
+        <div class="contract">
+            <h3>Addres</h3>
+            <p>385/99 om Sakthi Nagar<br>
+                Vengikkal,Tiruvannamalai<br>
+                Pincode - 606604
+            </p>
+        </div>
+        <div class="number">
+            <h3>Mobile Number</h3>
+            <p>(+91) 6758356434</p>
+            <p>(+91) 7658356434</p>
+        </div>
+        <div class="open">
+            <h3>Opening Timing</h3>
+            <p>Monday to Friday : 9:00Am to 10:00pm</p>
+            <p>Sunday to Saturday : 10:00Am to 11:00pm</p>
+        </div>
+        <div class="website">
+            <h3>Websites</h3>
+            <div class="web">
+                <i class="fa fa-brands fa-instagram"></i>
+                <p>Instagram</p>
+            </div>
+            <div class="web">
+                <i class="fa fa-brands fa-facebook"></i>
+                <p>Face Book</p>
+            </div>
+            <div class="web">
+                <i class="fa fa-brands fa-whatsapp"></i>
+                <p>What's App</p>
+            </div>
+            <div class="web">
+                <i class="fa fa-brands fa-linkedin"></i>
+                <p>LinkedIn</p>
+            </div>
+        </div>
+    </div><hr>
+    </main>
+    <footer>
+        <p>Conditions of Use & Sale
+            Privacy Notice
+            Interest-Based Ads<br>
+            © 1996-2023, Arunagiri' Kitchen.com, Inc. or its affiliates</p>
+    </footer>
+    <div class="login">
+        <h1>Log In</h1>
+        <i id="icon" class="fa fa-times" aria-hidden="true"></i>
+        <label for="" class="firstusr">User Name</label>
+        <input type="text" name="username" placeholder="Enter Your User Name">
+        <label for="">Password</label>
+        <input type="password" name="password" placeholder="Enter Your password">
+        <div class="loginbtn">
+            <button type="submit">Log In</button>
+            <a href="">Forget Password..?</a>
+        </div>
+
+        <div class="signup">
+            <button>Sign Up</button>
+        </div>
+    </div>
+
+    <div class="ssignup">
+        <h1>Sign Up</h1>
+        <i id="icon2" class="fa fa-times" aria-hidden="true"></i>
+        <label for="" class="firstusr">User Name</label>
+        <input type="text" name="username" placeholder="Enter Your User">
+        <label for="" class="firstusr">Email</label>
+        <input type="text" name="email" placeholder="Enter Your User">
+        <label for="">Password</label>
+        <input type="password" name="password" placeholder="Enter Your password">
+        <label class="cpss" for="">Confirm Password</label>
+        <input type="password" name="cpassword" placeholder="Enter Your password">
+        <div class="signupbtn">
+            <button>Register</button>
+        </div>
+    </div>
+</body>
+</html>
